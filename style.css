@@ -1,0 +1,27 @@
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+    
+}
+
+.main{
+    
+    width: auto;
+}
+
+.topBackground{
+    background-image: url(images/background.jpg);
+    height: 500px;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.imgHaider{
+    max-height: 500px;
+}
+
+.imgPortfolio{
+max-height: 300px;
+}
+
+

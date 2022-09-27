@@ -5,18 +5,171 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <!-------------------- Google Fonts --------------->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <!------------- Bootstrap 5 ------------ -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="icon" href="images/favicon.ico">
     <title>Haider Abbass - Resume</title>
 </head>
-<body>
+
+<!-- ---------------------- Header + Nav Bar ----------------------- -->
     <header>
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html"><img src="images/navbar-title.png"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse jus" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                  <li class="nav-item">
+                    <a class="nav-link active text-white" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="hobbies.html">My Projects</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="hobbies.html">Learn</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="hobbies.html">Interests</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="certifications.html">Certifications</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="achievements.html">Achievements</a>
+                  </li>
+                  <li><p>#EducationIsYourBirthRight</p></li>
+                  </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+          </header>
+
+          <!-- ----------------------- Section 2 -------------- -->
+          <div class="topBackground bg-img">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-3">
+                        <img class="bg-img img-fluid img-responsive img imgHaider" src="images/mypic.jpg"></div>
+                        
+                    <div class="col-md-8 mt-5">
+                        <h2 class="text-white display-2">Haider Abbass</h2>
+                        <h4 class="text-white display-6">Full Stack Developer</h4>
+                        <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti laudantium repellat nam ut cum odio, consequuntur laboriosam incidunt quis quo velit, doloremque vitae dolor harum quibusdam quae, ab provident accusamus. Atque quaerat necessitatibus odio amet dolorum architecto totam odit eius reprehenderit maxime vitae, nostrum animi minus ullam praesentium cumque. Laboriosam doloribus libero quaerat ipsam aspernatur, architecto exercitationem? Quae minus eius autem eligendi vero assumenda, dolor iste esse, suscipit dignissimos non magni? Iure, facilis aliquam? Vero ab maiores labore, odit expedita eum, ut, reprehenderit doloribus similique corrupti asperiores. Perspiciatis nam ullam fuga. Ad maxime, suscipit praesentium ea eos animi maiores placeat.</p>
+                        <button class="btn btn-outline-info btn-lg">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+          
+        <!-- --------------- Section 3 ---------------- -->
+<h2 class="text-dark display-4 text-center">Contact Me Now!</h2>
+        <div class="bg-dark">
+            <div class="container pt-3 pb-3">
+                <div class="row col-md-9 offset-1">
+                    <div class="col-md-4 mt-1 mb-1">
+                        <input type="text" placeholder="Full Name" class="form-control">
+                    </div>
+                    <div class="col-md-4 mt-1 mb-1">
+                        <input type="text" placeholder="Email" class="form-control">
+                    </div>
+                    
+                    <div class="col-md-4 mt-1 mb-1">
+                        <button class="form-control">Send</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- --------------- Section 4 ---------------- -->
+        <h2 class="text-dark display-4 text-center">Portfolio</h2>
+        <div class="container justify-content-between">
+            <div class="row">
+                <div class="col-lg-3">
+                    <img src="images/001htmlcss.jpg" class="img-fluid img-responsive img imgPortfolio">
+                    <div class="card-body">
+                        <h5>HTML + CSS</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis quos mollitia aut facilis, consequuntur, incidunt suscipit fugit earum fugiat ipsum minima qui tempore dolorum similique praesentium sint voluptatum. Pariatur, vel!</p>
+
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <img src="images/002BS.jpg" class="img-fluid img-responsive img imgPortfolio">
+                    <div class="card-body">
+                        <h5>Bootstrap</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis quos mollitia aut facilis, consequuntur, incidunt suscipit fugit earum fugiat ipsum minima qui tempore dolorum similique praesentium sint voluptatum. Pariatur, vel!</p>
+
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <img src="images/003JS.jpg" class="img-fluid img-responsive img imgPortfolio">
+                    <div class="card-body">
+                        <h5>JavaScript</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis quos mollitia aut facilis, consequuntur, incidunt suscipit fugit earum fugiat ipsum minima qui tempore dolorum similique praesentium sint voluptatum. Pariatur, vel!</p>
+
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <img src="images/004RJ.jpg" class="img-fluid img-responsive img imgPortfolio">
+                    <div class="card-body">
+                        <h5>ReactJS</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis quos mollitia aut facilis, consequuntur, incidunt suscipit fugit earum fugiat ipsum minima qui tempore dolorum similique praesentium sint voluptatum. Pariatur, vel!</p>
+
+                    </div>
+                </div>
+                
+
+            </div>
+
+        </div>
+
+
+
+<!-- ------------------ Section 5 ------------------ -->
+<!-- make collapse -->
+<div class="container">
+    <div class="card">
+        <div class="card-header">
+            <h3 class="text-center" style="font-weight: bolder;">Get Inspired</h3>
+
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<!-- ----------------- Footer --------------------- -->
+
+
+
+
+
+
+
+
+
+
+
+<!-- Old Design -->
+<!-- 
         <table>
             <tr>
                 <td><img src="images/pic02.jfif" style="width: 200px;"></td>
-                <td><h1>Syed Haider Abbass Bukhari</h1>
-                <p style="font-size: 22px;"><a href="https://www.linkedin.com/in/haiderabbass/" style="text-decoration: none;">Manager Talent Acquisition - Abacus Consulting</a></p>
+                <td><h1>Syed Haider Abbass Bukhari
+                <br>
+                <section id="LinkedIn"><a href="https://www.linkedin.com/in/haiderabbass/">Manager Talent Acquisition - Abacus Consulting</a></section></h1>
                 <p>Technical Recruiter - Talent Acquisition Expert - Manager HR</p>
             </td>
             </tr>
@@ -108,6 +261,9 @@
     </p>
     <footer>
         
-    </footer>
+    </footer> -->
+
+<!------------------- Bootstrap 5 -------------------->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
 </html>
